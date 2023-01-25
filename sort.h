@@ -21,7 +21,12 @@ void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+
 
 void swap_nodes(listint_t **head, listint_t **n1, listint_t *n2);
+void swap(int *first, int *second);
+int partition(int *array, size_t size, int low, int high);
+void sort(int *array, size_t size, int low, int high);
 
 #endif
