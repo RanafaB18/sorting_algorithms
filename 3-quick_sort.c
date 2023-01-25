@@ -2,18 +2,6 @@
 
 
 /**
- * swap -  swaps 2 numbers
- * @first: first number
- * @second: second number
- */
-void swap(int *first, int *second)
-{
-	int temp = *first;
-	*first = *second;
-	*second = temp;
-}
-
-/**
  * partition - Partition an integer array according to
  * the lomuto partition scheme
  * @array: Integer array
