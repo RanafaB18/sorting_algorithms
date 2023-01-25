@@ -1,5 +1,16 @@
 #include "sort.h"
 
+/**
+ * swap -  swaps 2 numbers
+ * @first: first number
+ * @second: second number
+ */
+void swap(int *first, int *second)
+{
+	int temp = *first;
+	*first = *second;
+	*second = temp;
+}
 
 /**
  * selection_sort - Sorts an array of integers in
