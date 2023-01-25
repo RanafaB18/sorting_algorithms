@@ -1,6 +1,18 @@
 #include "sort.h"
 
 /**
+ * swap -  swaps 2 numbers
+ * @first: first number
+ * @second: second number
+ */
+void swap(int *first, int *second)
+{
+	int temp = *first;
+	*first = *second;
+	*second = temp;
+}
+
+/**
  * shell_sort - Sort an array of integers in ascending
  * order using the shell sort algorithm and knuth sequence
  * @array: Interger array
